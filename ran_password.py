@@ -1,0 +1,16 @@
+#-*- coding:utf-8 -*-
+import random
+import string
+
+def cc(length):
+	password = string.hexdigits
+
+	return ''.join([random.choice(password) for i in range(length)])
+
+if __name__ == '__main__':
+    for i in range(200):
+		f = open('abc.txt','w')
+		print >> f,cc(8)
+		f.close()
+#		print cc(5)
+

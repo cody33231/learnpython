@@ -1,0 +1,3 @@
+TestNGSimpleTest.outdir=/test-output
+TestNGSimpleTest.useProjectJar=true
+eclipse.preferences.version=1
